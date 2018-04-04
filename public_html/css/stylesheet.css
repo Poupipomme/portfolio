@@ -1,0 +1,44 @@
+.parallax-container {
+    opacity: 0.9;
+}
+.parallax-container img {
+    background-size: contain;
+    height: auto;
+}
+.title {
+    overflow: visible;
+    text-shadow: black;
+    
+}
+a, span, table{
+    color: white;
+}
+nav {
+    background-color: transparent;
+}
+.progress {
+    background-color: #9e9e9e !important;
+}
+.icon {
+    font-size: 80px;
+    color: #616161 ;
+}
+.qualities, .container {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+    /*Materialize color*/
+   /* label focus color */
+   .input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label {
+     color: black !important;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus, .input-field input[type=email]:focus {
+     border-bottom: 1px solid black !important;
+     box-shadow: 0 1px 0 0 black !important;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: black !important;
+   }
