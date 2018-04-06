@@ -21,7 +21,11 @@ nav {
 }
 .icon {
     font-size: 80px;
-    color: #616161 ;
+    color: #616161;
+}
+.cicon {
+    font-size: 30px;
+    color: #616161;
 }
 .qualities, .container {
     padding-top: 4%;
