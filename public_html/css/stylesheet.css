@@ -8,7 +8,7 @@
 .title {
     overflow: visible;
     text-shadow: black;
-    
+
 }
 a, span, table{
     color: white;
@@ -23,7 +23,7 @@ nav {
     font-size: 80px;
     color: #616161;
 }
-.cicon {
+.cicon, .card-link {
     font-size: 30px;
     color: #616161;
 }
