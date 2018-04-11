@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.parallax').parallax( {
         responsiveThreshold: 993
     });
-    $('.scrollspy').scrollspy();
+    $('tooltipped').tooltip();
 });
 
 $(function() {

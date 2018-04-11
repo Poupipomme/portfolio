@@ -13,6 +13,9 @@
 a, span, table{
     color: white;
 }
+.card-icon {
+    color: #616161 !important;
+ }
 nav {
     background-color: transparent;
 }
@@ -23,13 +26,24 @@ nav {
     font-size: 80px;
     color: #616161;
 }
-.cicon, .card-link {
+.cicon {
     font-size: 30px;
     color: #616161;
 }
 .qualities, .container {
     padding-top: 4%;
     padding-bottom: 4%;
+}
+
+/* Floating button displaying after menu scroll */
+
+
+#floatB {
+  display: none;
+}
+
+body:hover + #floatB {
+  display: block;
 }
 
     /*Materialize color*/
