@@ -1,5 +1,5 @@
-.parallax-container {
-    opacity: 0.9;
+.parallax-container, .activator {
+    opacity: 0.8;
 }
 .parallax-container img {
     background-size: contain;
@@ -11,7 +11,7 @@
 
 }
 a, span, table{
-    color: white;
+    color: white
 }
 .card-icon {
     color: #616161 !important;
