@@ -15,10 +15,10 @@ a, .span, table{
 }
 #veil {
   background-color: #fafafa;
-  font-size: 5px;
 }
-.card-icon {
+.card-icon, .card-reveal {
     color: #616161 !important;
+    font-size: 100% !important;
  }
 nav {
     background-color: transparent;
