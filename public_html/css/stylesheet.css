@@ -13,6 +13,9 @@
 a, .span, table{
     color: white
 }
+#home {
+  max-width: 100% !important;
+}
 #veil {
   background-color: #fafafa;
 }
