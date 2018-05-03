@@ -15,7 +15,6 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
       <link rel="stylesheet" href="css/stylesheet.css">
-      <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
       <!-- Parallax + Navbar -->
@@ -69,42 +68,59 @@
          <div class="col s12 m12 l4">
             <i class="icon material-icons">whatshot</i>
             <h5>
-               Toujours à jour
+               Toujours en vogue
             </h5>
             <p class="content">
-               Je me tiens informé des technologies que je pourrais utiliser dans de futurs projets.
+               Je me tiens en permanence informé des technologies que je pourrais utiliser dans de futurs projets.
             </p>
          </div>
       </div>
       <!-- Parallax + Navbar -->
-      <div class="parallax-container">
+      <div class="parallax-container" id="competence">
          <div class="parallax">
             <div class="container">
                <div class="row section center">
                   <!-- CV -->
                   <a download="Guilhem Manchon Curiculum Vitae.pdf" href="res/gmn_cv.pdf" class="waves-effect white-text waves-grey btn-flat"><i class="material-icons right">file_download</i>Telecharger mon cv</a>
-
-
-                </div>
-
-                <div class="row container white-text" id="competence">
-                  <h4 class="header">
+                  <!-- Competences -->
+                  <a download="Guilhem Manchon Fiche de Competences.xlsx" href="res/comp.xlsx" class="waves-effect white-text waves-grey btn-flat"><i class="material-icons right">file_download</i>Telecharger ma fiche de competence</a>
+               </div>
+               <div class="divider"></div>
+               <div class="row container white-text">
+                  <h4 class="header title">
                      Compétences
                   </h4>
-                  <p class="content">
-                    
-                  </p>
-                </div>
+                  <div class="content">
+                     Langage de structuration
+                     <div class="progress">
+                        <div class="determinate" style="width: 85%;"></div>
+                     </div>
+                     Langage de style
+                     <div class="progress">
+                        <div class="determinate" style="width: 75%;"></div>
+                     </div>
+                     Langage orienté objet prototype
+                     <div class="progress">
+                        <div class="determinate" style="width: 70%;"></div>
+                     </div>
+                     Langage orienté objet
+                     <div class="progress">
+                        <div class="determinate" style="width: 40%;"></div>
+                     </div>
+                     Langage de base de données
+                     <div class="progress">
+                        <div class="determinate" style="width: 63%;"></div>
+                     </div>
+                  </div>
+               </div>
             </div>
-
-
             <img alt="mountain" src="res/moutain.jpg" style="z-index:-10;">
          </div>
       </div>
       <div id="work" class="row container">
          <!-- Projects -->
          <h4>
-         Réalisations
+            Réalisations
          </h4>
          <!-- Divider -->
          <div class="divider"></div>
@@ -151,40 +167,31 @@
             </div>
          </div>
       </div>
-
-
-
       <!-- Veille technologique -->
       <div id="veil">
-
-        <!--divider -->
-        <div class="divider"></div>
-
-      <div class="container center">
-        <h4>
-          Paiements Electronniques
-        </h4>
-      </diV>
-
-
+         <!--divider -->
+         <div class="divider"></div>
+         <div class="container center">
+            <h4>
+               Paiements Electronniques
+            </h4>
+         </diV>
          <section class="cd-timeline js-cd-timeline">
             <div class="cd-timeline__container">
-
-              <!-- cd-timeline__block -->
-              <div class="cd-timeline__block js-cd-block">
-                 <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-                    <img src="res/transaction.png" alt="Picture">
-                 </div>
-                 <!-- cd-timeline__img -->
-                 <div class="cd-timeline__content js-cd-content">
-                   <h5>Single Euro Payment Area</h5>
-                    <p>Espace ayant pour but d'harmoniser les moyens de paiements dans la zone euro et mis en place par les banques du Conseil EUropéen des paiements.</p>
-                    <a href="#0" class="cd-timeline__read-more">Read more</a>
-                    <span class="cd-timeline__date">Dec 2007</span>
-                 </div>
-                 <!-- cd-timeline__content -->
-              </div>
-
+               <!-- cd-timeline__block -->
+               <div class="cd-timeline__block js-cd-block">
+                  <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+                     <img src="res/transaction.png" alt="Picture">
+                  </div>
+                  <!-- cd-timeline__img -->
+                  <div class="cd-timeline__content js-cd-content">
+                     <h5>Single Euro Payment Area</h5>
+                     <p>Espace ayant pour but d'harmoniser les moyens de paiements dans la zone euro et mis en place par les banques du Conseil EUropéen des paiements.</p>
+                     <a href="#0" class="cd-timeline__read-more">Read more</a>
+                     <span class="cd-timeline__date">Dec 2007</span>
+                  </div>
+                  <!-- cd-timeline__content -->
+               </div>
                <div class="cd-timeline__block js-cd-block">
                   <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
                      <img src="res/bitcoin.svg" alt="Movie">
@@ -212,7 +219,6 @@
                   </div>
                   <!-- cd-timeline__content -->
                </div>
-
                <!-- cd-timeline__block -->
                <div class="cd-timeline__block js-cd-block">
                   <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
@@ -220,47 +226,39 @@
                   </div>
                   <!-- cd-timeline__img -->
                   <div class="cd-timeline__content js-cd-content">
-                    <h5>What's App et le paiement par message</h5>
+                     <h5>What's App et le paiement par message</h5>
                      <p>What's préparerait un système de paiement entre 2 utilisateurs pour son application de méssagerie, ce serait le dernier service à proposer un transfert d'argent avec un texte</p>
                      <a href="#0" class="cd-timeline__read-more">Read more</a>
                      <span class="cd-timeline__date">AUG 2017</span>
                   </div>
                   <!-- cd-timeline__content -->
                </div>
-
-               </div>
-               <!-- cd-timeline__block -->
-
-               <!-- Divider -->
-               <div class="divider"></div>
             </div>
-         </section>
-         <!-- cd-timeline -->
+            <!-- cd-timeline__block -->
+            <!-- Divider -->
+            <div class="divider"></div>
       </div>
-
-
+      </section>
+      <!-- cd-timeline -->
+      </div>
       <!-- Input -->
       <div id="contact" class="row container">
          <div class="col s12 m6 l4">
-            <p>Téléphone : 07.50.40.76.64</p>
+            <p>07.50.40.76.64</p>
          </div>
          <div class="col s12 m6 l4"></div>
-
          <div class="col s12 m6 l4">
             <!-- Divider -->
-               <p>Mail: guilhemmanchon@gmail.com</p>
-            </div>
+            <p>guilhemmanchon@gmail.com</p>
+         </div>
       </div>
-
       <div id="floatB" class="fixed-action-btn">
          <!-- FAB Scrollup -->
          <a href="#home" class="pulse btn-floating btn-small blue-grey darken-3">
          <i class="large material-icons">expand_less</i>
          </a>
       </div>
-
       <div class="divider"></div>
-
       <footer class="grey lighten-5">
          <div class="footer-copyright">
             <div class="row container center">
@@ -272,6 +270,5 @@
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
       <script type="text/javascript" src="script/jquery.js"></script>
-      <script type="text/javascript" src="script/main.js"></script>
    </body>
 </html>
