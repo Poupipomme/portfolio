@@ -2,8 +2,9 @@ $(document).ready(function(){
     $('.parallax').parallax( {
         responsiveThreshold: 993
     });
-    $(".sb-container").scrollBox();
+    $('.sb-container').scrollBox();
     $('tooltipped').tooltip();
+    $('body').niceScroll();
 });
 
 $(function() {
