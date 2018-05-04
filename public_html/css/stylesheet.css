@@ -16,8 +16,11 @@ a, .span, table{
 #home {
   max-width: 100% !important;
 }
-#veil {
-  background-color: #fafafa;
+#veil, .cd-timeline__img.cd-timeline__img--picture, footer {
+  background-color: #f9fbe7;
+}
+.activator:hover {
+  opacity: 0.9;
 }
 .card-icon, .card-reveal {
     color: #616161 !important;
@@ -167,17 +170,6 @@ Resource style
   margin-top: -12px;
 }
 
-.cd-timeline__img.cd-timeline__img--picture {
-  background: #75ce66;
-}
-
-.cd-timeline__img.cd-timeline__img--movie {
-  background: #c03b44;
-}
-
-.cd-timeline__img.cd-timeline__img--location {
-  background: #f0ca45;
-}
 
 @media only screen and (min-width: 1170px) {
   .cd-timeline__img {

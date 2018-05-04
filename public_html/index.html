@@ -17,14 +17,25 @@
       <link rel="stylesheet" href="css/stylesheet.css">
    </head>
    <body>
+     <!--<div id="splashscreen">
+     <h3>
+        Bienvenue sur mon portfolio
+     </h3>
+     <img src="res/moutain.jpg"/>
+
+     <a href="#" class="enter_link">Entrer sur le site</a>
+   </div>-->
       <!-- Parallax + Navbar -->
       <div id="home" class="parallax-container">
          <div class="parallax">
             <div class="container">
                <nav class="z-depth-0">
+                 <ul class="left">
+                   <li><a>Bienvenue sur mon Portfolio</a>
+                 </ul>
                   <ul class="right">
                      <li><a href="#me">A propos</a></li>
-                     <li><a href="#competence">Competences</a></li>
+                     <li><a href="#competence">Compétences</a></li>
                      <li><a href="#work">Projets</a></li>
                      <li><a href="#veil">Veille</a></li>
                      <li><a href="#contact">Contact</a></li>
@@ -34,15 +45,16 @@
             <img alt="mountain" src="res/moutain.jpg" style="z-index:-10;">
          </div>
       </div>
+
       <!-- Divider -->
       <div class="divider"></div>
       <!-- About me -->
       <div id="me" class="row container white">
          <h4 class="header">
-            A propos ..
+            Guilhem M
          </h4>
          <p class="content">
-            Bonjour, je m'appelle Guilhem, agé de 20 ans, et suis actuellement en deuxième année de BTS SIO options SLAM (Solutions Logicielles et Applications Metiers) sur l'antenne de Mende.
+            Issu d'une filière agronomique, et ayant obtenu un bac technologique Stav .Je suis actuellement en deuxième année de BTS SIO option Slam à Mende.
          </p>
       </div>
       <!-- Qualities -->
@@ -50,28 +62,28 @@
          <div class="col s12 m12 l4">
             <i class="center icon material-icons">photo_camera</i>
             <h5>
-               Sens Artistique
+               Influences artistiques
             </h5>
-            <p class="content">
-               J'ai toujours montré un intérêt particulier pour l'art et la culture sous toutes ses formes.
+            <p class="content"> <!-- Mentionner des artistes d'influence -->
+               Mon goût pour les arts et, plus particulièrement pour le dessin et la peinture, me permet d'apporter à chaque projet une identité visuelle forte.
             </p>
          </div>
          <div class="col s12 m12 l4">
             <i class="icon material-icons">code</i>
             <h5>
-               Design
+               Ergonomie et simplicité
             </h5>
             <p class="content">
-               Toujours dans l'idée de produire l'interface utilisateur la plus simple d'accès
+               L'optimisation est le maître mot de mon travail. J'ai à coeur de proposer une interface web alliant confort et praticité et garantissant une prise en main sereine aux usagers en toutes circonstances.
             </p>
          </div>
          <div class="col s12 m12 l4">
             <i class="icon material-icons">whatshot</i>
             <h5>
-               Toujours en vogue
+               Toujours à l'affût
             </h5>
             <p class="content">
-               Je me tiens en permanence informé des technologies que je pourrais utiliser dans de futurs projets.
+               En quête de nouvelles pratiques, je me tiens en permanence informé des technologies que je pourrais mettre au service de mon travail.
             </p>
          </div>
       </div>
@@ -81,9 +93,9 @@
             <div class="container">
                <div class="row section center">
                   <!-- CV -->
-                  <a download="Guilhem Manchon Curiculum Vitae.pdf" href="res/gmn_cv.pdf" class="waves-effect white-text waves-grey btn-flat"><i class="material-icons right">file_download</i>Telecharger mon cv</a>
+                  <a href="res/gmn_cv.pdf" class="waves-effect white-text waves-grey btn-flat"><i class="material-icons right">file_download</i>Télécharger mon CV</a>
                   <!-- Competences -->
-                  <a download="Guilhem Manchon Fiche de Competences.xlsx" href="res/comp.xlsx" class="waves-effect white-text waves-grey btn-flat"><i class="material-icons right">file_download</i>Telecharger ma fiche de competence</a>
+                  <a download="Guilhem Manchon Fiche de Competences.xlsx" href="res/comp.xlsx" class="waves-effect white-text waves-grey btn-flat"><i class="material-icons right">file_download</i>Télécharger ma fiche de competence</a>
                </div>
                <div class="divider"></div>
                <div class="row white-text">
@@ -99,13 +111,9 @@
                      <div class="progress">
                         <div class="determinate" style="width: 77%;"></div>
                      </div>
-                     Langage orienté objet prototype
-                     <div class="progress">
-                        <div class="determinate" style="width: 72%;"></div>
-                     </div>
                      Langage orienté objet
                      <div class="progress">
-                        <div class="determinate" style="width: 48%;"></div>
+                        <div class="determinate" style="width: 41%;"></div>
                      </div>
                      Langage de base de données
                      <div class="progress">
@@ -135,7 +143,7 @@
             </div>
             <div class="card-reveal">
                <span class="card-title grey-text text-darken-4">Smile<i class="material-icons right">close</i></span>
-               <p>Dernier projet en date, ce site informatif et présentatif a été réalisé lors de mon stage de deuxième année.</p>
+               <p>Dérnier projet en date, ce site informatif et présentatif a été réalisé seul lors de mon stage de deuxième année.</p>
             </div>
          </div>
          <!-- E4 -->
@@ -149,13 +157,13 @@
             </div>
             <div class="card-reveal">
                <span class="card-title grey-text text-darken-4">Inventorisation<i class="material-icons right">close</i></span>
-               <p>Projet présenté lors de l'épreuve E4, et ayant bénéficié d'une mise en ligne par mes soins.</p>
+               <p>Projet présenté lors de l'épreuve E4 et bénéficiant d'une documentation et d'un contexte ayant été crée personnellement</p>
             </div>
          </div>
          <!-- Ne sais pas encore -->
          <div class="card col s12 m12 l4 z-depth-0 sticky-action">
             <div class="card-image waves-effect waves-block waves-light">
-               <img class="activator" src="res/moutain.jpg">
+               <img class="activator" src="res/historique.jpg">
             </div>
             <div class="card-content">
                <span class="card-title activator grey-text text-darken-4">Historisation ENSCM<i class="material-icons right">expand_less</i></span>
@@ -163,7 +171,7 @@
             </div>
             <div class="card-reveal">
                <span class="card-title grey-text text-darken-4">Historisation ENSCM<i class="material-icons right">close</i></span>
-               <p>Résultat de mon Stage de première année, portant sur le traitement de donnée ainsi que leur mise en place pour utilisation</p>
+               <p>Résultat de mon Stage de première année, portant sur le traitement de données ainsi que leur mise en place pour Historisation au sein d'un environnement déjà en place</p>
             </div>
          </div>
       </div>
@@ -173,12 +181,13 @@
          <div class="divider"></div>
          <div class="container center">
             <h4>
-               Paiements Electronniques
+              Veille: Paiements Electronniques
             </h4>
          </diV>
          <section class="cd-timeline js-cd-timeline">
             <div class="cd-timeline__container">
                <!-- cd-timeline__block -->
+
                <div class="cd-timeline__block js-cd-block">
                   <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
                      <img src="res/transaction.png" alt="Picture">
@@ -187,11 +196,12 @@
                   <div class="cd-timeline__content js-cd-content">
                      <h5>Single Euro Payment Area</h5>
                      <p>Espace ayant pour but d'harmoniser les moyens de paiements dans la zone euro et mis en place par les banques du Conseil EUropéen des paiements.</p>
-                     <a href="#0" class="cd-timeline__read-more">Read more</a>
+
                      <span class="cd-timeline__date">Dec 2007</span>
                   </div>
-                  <!-- cd-timeline__content -->
+
                </div>
+
                <div class="cd-timeline__block js-cd-block">
                   <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
                      <img src="res/bitcoin.svg" alt="Movie">
@@ -200,35 +210,35 @@
                   <div class="cd-timeline__content js-cd-content">
                      <h5>Le Bitcoin et les monnaies virtuelles</h5>
                      <p>Les monnaies virtuelles comme le BitCoin ou Etherum permettent de faire des paiements en ligne via des supports spécialisés sur internet. Ces cryptos-monnaies n'ont pas de cours légal pfficiel par rapport aux monnaies classiques.</p>
-                     <a href="#0" class="cd-timeline__read-more">Read more</a>
+
                      <span class="cd-timeline__date">Jan 2008</span>
                   </div>
                   <!-- cd-timeline__content -->
                </div>
                <!-- cd-timeline__block -->
                <div class="cd-timeline__block js-cd-block">
-                  <div class="cd-timeline__img cd-timeline__img--movie js-cd-img">
+                  <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
                      <img src="res/nfc.png" alt="Movie">
                   </div>
                   <!-- cd-timeline__img -->
                   <div class="cd-timeline__content js-cd-content">
                      <h5>Paiements sans contact mobile (NFC)</h5>
                      <p>Cartes bancaires équipées de technologies permettant le paiement sans contact en dessous de 30€ en Europe depuis octobre 2017.</p>
-                     <a href="#0" class="cd-timeline__read-more">Read more</a>
+
                      <span class="cd-timeline__date">Mar 2014</span>
                   </div>
                   <!-- cd-timeline__content -->
                </div>
                <!-- cd-timeline__block -->
                <div class="cd-timeline__block js-cd-block">
-                  <div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+                  <div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
                      <img src="res/whatsapp.png" alt="Location">
                   </div>
                   <!-- cd-timeline__img -->
                   <div class="cd-timeline__content js-cd-content">
                      <h5>What's App et le paiement par message</h5>
                      <p>What's préparerait un système de paiement entre 2 utilisateurs pour son application de méssagerie, ce serait le dernier service à proposer un transfert d'argent avec un texte</p>
-                     <a href="#0" class="cd-timeline__read-more">Read more</a>
+
                      <span class="cd-timeline__date">AUG 2017</span>
                   </div>
                   <!-- cd-timeline__content -->
@@ -259,7 +269,7 @@
          </a>
       </div>
       <div class="divider"></div>
-      <footer class="grey lighten-5">
+      <footer>
          <div class="footer-copyright">
             <div class="row container center">
                ©2018 Guilhem Manchon
@@ -271,5 +281,6 @@
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
       <script type="text/javascript" src="script/jquery.js"></script>
       <script type="text/javascript" src="script/nicescroll.js"></script>
+      <script type="text/javascript" src="script/veil.js"></script>
    </body>
 </html>
