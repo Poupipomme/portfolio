@@ -17,7 +17,7 @@ a, .span, table{
   max-width: 100% !important;
 }
 #veil, .cd-timeline__img.cd-timeline__img--picture, footer {
-  background-color: #f9fbe7;
+  background-color: #F1F2F2;
 }
 .activator:hover {
   opacity: 0.9;
@@ -260,14 +260,6 @@ Resource style
   display: inline-block;
 }
 
-.cd-timeline__read-more {
-  float: right;
-  padding: .8em 1em;
-  background: #acb7c0;
-  color: white;
-  border-radius: 0.25em;
-}
-
 .cd-timeline__read-more:hover {
   background-color: #bac4cb;
 }
@@ -307,9 +299,7 @@ Resource style
     border-color: transparent;
     border-left-color: white;
   }
-  .cd-timeline__read-more {
-    float: left;
-  }
+
   .cd-timeline__date {
     position: absolute;
     width: 100%;

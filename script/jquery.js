@@ -4,13 +4,13 @@ $(document).ready(function(){
     });
     $(".sb-container").scrollBox();
     $("tooltipped").tooltip();
-}
+});
 
-$("body").niceScroll();
+/*$("body").niceScroll();
 
 $('enter_link').click(function() {
   $(this).parent().fadeOut(500);
-});
+});*/
 
 $(function() {
     /**
